@@ -1,3 +1,3 @@
 require("settings")
 require("mappings")
-require("packer-setup")
+require("lazy-setup")
