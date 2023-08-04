@@ -36,7 +36,7 @@ return require('packer').startup(function(use)
   -- Git stuff
   use('tpope/vim-fugitive')
   use('airblade/vim-gitgutter')
-  use('f-person/git-blame')
+  use('f-person/git-blame.nvim')
 
   -- LSP
   use {

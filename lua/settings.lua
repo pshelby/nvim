@@ -39,8 +39,8 @@ vim.opt.updatetime = 50
 -- Window size
 -- vim.opt.colorcolumn = "120"
 
--- Leader char
-vim.g.mapleader = " "
+-- Clipboard
+vim.api.nvim_set_option("clipboard","unnamed")
 
 -- Disable netrw
 -- vim.g.loaded_netrw = 1
