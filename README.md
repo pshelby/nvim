@@ -1,4 +1,14 @@
 # 💤 LazyVim
 
-A starter template for [LazyVim](https://github.com/LazyVim/LazyVim).
-Refer to the [documentation](https://lazyvim.github.io/installation) to get started.
+My implementation of [LazyVim](https://github.com/LazyVim/LazyVim).
+
+Feel free to use it, but it may change randomly.
+
+Basics:
+* Copilot
+* LSP and syntax highlighting for:
+  * Python
+  * Rust
+  * Terraform
+  * TOML
+  * YAML
