@@ -76,9 +76,9 @@ return {
           yaml = {
             keyOrdering = false,
             format = {
-              enable = true,
+              enable = false,
             },
-            validate = true,
+            validate = false,
             schemaStore = {
               -- Must disable built-in schemaStore support to use
               -- schemas from SchemaStore.nvim plugin
