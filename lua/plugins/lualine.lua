@@ -3,7 +3,7 @@ return {
   optional = true,
   event = "VeryLazy",
   opts = function(_, opts)
-    local Util = require("lazyvim.util")
+    local Util = require("lazyvim.util").ui
     local colors = {
       [""] = Util.fg("Special"),
       ["Normal"] = Util.fg("Special"),
