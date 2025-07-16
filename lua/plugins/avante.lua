@@ -3,9 +3,9 @@ return {
   event = "VeryLazy",
   build = "make", -- This is Optional, only if you want to use tiktoken_core to calculate tokens count
   opts = {
-    provider = "openai",
-    openai = {
-      model = "gpt-3.5-turbo",
+    provider = "claude",
+    claude = {
+      model = "claude-3-7-sonnet-20250219",
     },
   },
   dependencies = {
