@@ -3,9 +3,15 @@ return {
   event = "VeryLazy",
   build = "make", -- This is Optional, only if you want to use tiktoken_core to calculate tokens count
   opts = {
+    provider_name = "ollama", -- Set default provider to ollama
     providers = {
-      claude = {
-        model = "claude-sonnet-4-20250514",
+      -- claude = {
+      --   model = "claude-sonnet-4-20250514",
+      -- },
+      ollama = {
+        endpoint = "http://localhost:11434", -- Adjust if your Ollama endpoint differs
+        model = "qwen3:0.6b", -- Replace with your desired Ollama model
+        -- You can also configure other options like 'temperature', 'max_tokens' here
       },
     },
     web_search_engine = {
