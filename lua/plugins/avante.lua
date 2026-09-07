@@ -14,9 +14,6 @@ return {
         -- You can also configure other options like 'temperature', 'max_tokens' here
       },
     },
-    web_search_engine = {
-      provider = "kagi",
-    },
     -- system_prompt as function ensures LLM always has latest MCP server state
     -- This is evaluated for every message, even in existing chats
     system_prompt = function()
